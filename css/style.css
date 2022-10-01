@@ -1,0 +1,57 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 136px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.list-group-item {
+    border-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+.list-item__title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    font-weight: bold;
+}
+
+.list-item__tagline {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.not_checked {
+    color: white;
+}
